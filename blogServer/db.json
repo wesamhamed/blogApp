@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server 1 1",
+      "body": "json-server 1 body",
+      "author": "Mohammed",
+      "categoryId" : 1
+    },
+    {
+      "id": 2,
+      "title": "json-server 2 ",
+      "body": "json-server 2 body",
+      "author": "Ahmad",
+      "categoryId" : 1
+    },
+    {
+      "id": 3,
+      "title": "json-server 3 ",
+      "body": "json-server 3 body",
+      "author": "Momen",
+      "categoryId" : 2
+    },
+    {
+      "id": 4,
+      "title": "json-server 4 ",
+      "body": "json-server 4 body",
+      "author": "Oday",
+      "categoryId" : 3
+    }
+  ],
+  "comments": [
+    { "id": 1, "content": "some comment 1", "postId": 1 },
+    { "id": 2, "content": "some comment 2", "postId": 1 },
+    { "id": 3, "content": "some comment 3", "postId": 2 }
+  ],
+  "tags": [
+    { "id": 1, "name": "JavaScript" },
+    { "id": 2, "name": "PHP" },
+    { "id": 3, "name": "C#" },
+    { "id": 4, "name": "C++" },
+    { "id": 5, "name": "C" }
+  ],
+  "categories": [
+    { "id": 1, "name": "IT" },
+    { "id": 2, "name": "Marketing" },
+    { "id": 3, "name": "Managment" }
+  ]
+}
